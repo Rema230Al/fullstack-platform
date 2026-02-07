@@ -4,9 +4,9 @@ body{
 }
 .home-img{
     /* position: absolute; */
-    height: 100vw;
+    height: 60vw;
     width: 100%;
-    background-image: url("assets/website-forms-bg.jpg");
+    background-image: url("assets/Alula.jpg");
     background-size: cover;
     background-position: center;
 }
