@@ -1,14 +1,20 @@
 body{
  
   margin: 0;
+   background-color: rgb(214, 197, 176);
 }
 .home-img{
-    /* position: absolute; */
-    height: 60vw;
-    width: 100%;
-    background-image: url("assets/Alula.jpg");
+    position: absolute;
+    height: 30vw;
+    width: 47%;
+    background-image: url("assets/Ithra.jpg");
+    background-color: rgb(89, 72, 50);
     background-size: cover;
     background-position: center;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-top: 15%;
+
 }
 
 .header{ 
@@ -51,16 +57,16 @@ a{
     font-size: large;
     font-family:'Times New Roman', Times, serif;
     /* font: weight 70; */
-    color: rgb(250, 242, 231);
+    color: rgb(56, 53, 50);
 }
 .login-button{
     background:none;
     border-radius: 6px;
-    border:solid 1.25px beige;
+    border:solid 1.25px rgb(109, 104, 99);;
     padding-right: 3%;
-    box-shadow: 0 0 10px #c37cc3;
+    box-shadow: 0 0 10px  rgb(151, 149, 147);;
     font-size: medium;
-    color: rgb(250, 242, 231);
+    color: rgb(56, 53, 50);   
     padding: 5px 21px 5px 21px;
 }
 
