@@ -55,12 +55,12 @@ a{
 .login-button{
     background:none;
     border-radius: 6px;
-    border:solid 1.25px rgb(109, 104, 99);;
+    border:solid 1.25px rgb(152, 144, 135);
     padding-right: 3%;
-    box-shadow: 0 0 10px  rgb(151, 149, 147);;
+    box-shadow: 0 0 10px  rgb(172, 162, 152);
     font-size: medium;
     color: rgb(56, 53, 50);   
-    padding: 5px 21px 5px 21px;
+    padding: 5px 30px 5px 30px;
    
 }
 .welcome-div img{
