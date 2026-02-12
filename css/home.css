@@ -4,7 +4,7 @@ body{
   /* background-color:#7b44a2 ;*/
 
 /* background-color:#59247f; */
-background-color:  rgb(111, 85, 150);
+background-color:  #30133d;
 }
 .hero-section{
     display: flex;
@@ -12,13 +12,13 @@ background-color:  rgb(111, 85, 150);
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%; /* border: solid 10px white;
+    height: 65%; /* border: solid 10px white;
     */
     
 
 }
 .hero-title{
-    margin-top: 20%;
+    margin-top: 12%;
     width: 70%;
     height: 50vw;
     justify-content: center;
@@ -27,13 +27,33 @@ background-color:  rgb(111, 85, 150);
     
 }
 .hero-title > h1 , p{
-    margin-left: 40%;
-    
-  
+    margin-left: 49%;
+    color: #ad7f51;
+
+}
+.hero-title h1{
+   
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 80px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  padding-right: 20px;
+
+}
+.hero-title p{
+    font-size:1rem;
+    width: 25rem;
+    padding-left: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.hero-title span{
+    padding-left: 30px;
 }
 .map-div{
-    width: 100%;
-    margin-bottom: 10%;
+    width: 120%;
+    margin-bottom:6%;
 
 }
 
@@ -52,7 +72,7 @@ background-color:  rgb(111, 85, 150);
 .header{ 
   height: 20%; 
   width: 100%;
-background-color:  rgb(111, 85, 150);
+/* background-color:  rgb(111, 85, 150); */
 }
 .lavender-div{
     /* ---------------maybe remove----------- */
@@ -69,12 +89,10 @@ background-color:  rgb(111, 85, 150);
     position:fixed;
     width: 60%;
     padding-top: 3%;
-     margin-left: 35%;
-     margin-right: 0;
-     position:fixed;
+    margin-left: 35%;
+    margin-right: 0;
+    position:fixed;
     z-index: 20;
-    
-   
 }
 .nav ,.nav-item{
     display: flex;
@@ -90,8 +108,7 @@ background-color:  rgb(111, 85, 150);
     list-style: none;
     padding: 0;
     margin: 0;
-     font-family: Arial, Helvetica, sans-serif;
-    
+     font-family: Arial, Helvetica, sans-serif; 
 }
 a{
     text-decoration: none;
@@ -117,7 +134,6 @@ a{
     border-radius: 10px;
     display: block;
     margin: 0;
-
 }
 .welcome-div p ,h2 {
      font-family: Sans-Serif;
@@ -127,14 +143,16 @@ a{
 }
 .welcome-div h2{
     /* color: rgb(241, 229, 218); */
-    color: rgb(58, 29, 74);
+    /* color: rgb(58, 29, 74); */
+    color: #86613e;
 }
 .welcome-div p {
     /* color: rgb(229, 208, 188); */
     color: rgb(182, 160, 214);
+    margin-left: 0;
+    color: #e2a66b;
   
 }
-
 .general-div{
     display: flex;
     z-index: 5;
@@ -154,24 +172,54 @@ a{
 }
 .welcome-div{
     width: 600px;
-    /* justify-content: space-between; */
     height: 40vw;
     flex-shrink: 0;
-    
-    
 }
-.intro-section{
+ .intro-section {
    width: 100%;
-   height: 90%;
+   height: 40rem;
    margin-top: 64%;
-   position: absolute;
-   padding-left: 6%;
-  background-color: rgb(177, 158, 196);
-  
+   /* position: absolute; */
+   /* background-color:  #40224e;  */
+    background-color:  #351d41; 
 }
-/* .temp-div{
+.temp-div h2{
+    font-weight: 890;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+     color: #200d29;
+}
+.temp-div  p {
+    margin-left: 0;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #e2a66b;
+    padding-right: 15rem;
+    
+}
+.temp-div{
+    padding-left: 15rem;
+    height: 150%;
+    margin-bottom: -2rem;
+}
+footer{
+    margin-top: 2rem;
+    height: 14rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 2rem 2rem 2rem;
+    
+}
+footer p {
+    font-size: 1rem;
+}
+#git{
+    margin-left: 3.5rem;
+}
 
-} */
+
 @keyframes spin {
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
