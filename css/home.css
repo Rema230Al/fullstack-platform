@@ -276,7 +276,7 @@ footer p{
   display: flex;
   flex-direction: column;
   width: 40rem;
-  margin-left: 0; /* بدل -20rem */
+  margin-left: 0; 
   font-family: 'Montserrat', sans-serif;
 }
 
