@@ -40,7 +40,6 @@ body{
 .hero-title > p{
   margin-left: 49%;
   color: #e2a66b;
- 
 }
 
 .hero-title > h1{
@@ -99,6 +98,7 @@ body{
   display: flex;
   gap: 20px;
   margin-top: 3rem;
+ 
 }
 
 .header{
@@ -111,7 +111,7 @@ body{
   justify-content:center;
   align-items: center;
   margin-left: -70px;
-   z-index: 2; 
+  z-index: 2; 
    
 }
 .lavender-div img{

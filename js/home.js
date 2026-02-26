@@ -5,3 +5,4 @@ document.addEventListener("DOMContentLoaded", function() {
         el.classList.add("show");
     });
 });
+//dynamic data
